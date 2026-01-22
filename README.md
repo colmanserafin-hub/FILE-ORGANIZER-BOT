@@ -3,19 +3,19 @@
 A safe, two-phase file organization tool that simulates actions before execution.
 
 Key Talking Points:
-1. **Safety First: "The program first runs in a dry-run phase where it simulates all actions and logs them. Only after explicit user approval does it execute the file movements."
+1. Safety First: "The program first runs in a dry-run phase where it simulates all actions and logs them. Only after explicit user approval does it execute the file movements."
 
-2. **Clean Architecture**: "The two-phase design ensures clear separation of concerns - observation and action never mix."
+2. Clean Architecture: "The two-phase design ensures clear separation of concerns - observation and action never mix."
 
-3. **User Experience**: "Users can review exactly what will happen before committing to any changes."
+3. User Experience: "Users can review exactly what will happen before committing to any changes."
 
-4. **Extensibility**: "The configuration-based design makes it easy to add new file types or modify behavior."
+4. Extensibility: "The configuration-based design makes it easy to add new file types or modify behavior."
 
 
 Design Philosophy
 
-Phase 1 = Observe (Dry Run)**  
-Phase 2 = Act (Live Run)**
+Phase 1 = Observe (Dry Run)
+Phase 2 = Act (Live Run)
 
 The program never mixes both phases in the same execution, ensuring safety and predictability.
 
